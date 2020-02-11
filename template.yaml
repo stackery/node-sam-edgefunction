@@ -9,7 +9,7 @@ Resources:
       Description: !Sub
         - Stack ${StackTagName} Environment ${EnvironmentTagName} Function ${ResourceName}
         - ResourceName: Function
-      Runtime: nodejs10.x
+      Runtime: nodejs12.x
       CodeUri: src/Function
       Handler: index.handler
       MemorySize: 128
