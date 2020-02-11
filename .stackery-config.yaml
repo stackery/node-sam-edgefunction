@@ -1,2 +1,1 @@
-stack-name: node10-sam-edgefunction
-template-path: template.yaml
+stack-name: node-sam-edgefunction
